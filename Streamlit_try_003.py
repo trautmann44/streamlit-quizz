@@ -85,8 +85,9 @@ if st.button("Odeslat odpovědi"):
     elif correct_count > total_questions / 2:
         st.write("👍 Dobrá práce! Máte většinu odpovědí správně.")
     else:
-        st.write("🔍 Zkuste to znovu! Možná si přečtěte více o využití vody ve sportu.")
+        st.write("🔍 Zkusil bych to znovu...")
 # python -m streamlit run e:/data/Statistics/Python_scripts/Streamlit_try_001.py
+
 
 
 
