@@ -8,25 +8,25 @@ st.title("Quiz game")
 
 questions = [
     {"question": "Může významně ovlivnit přímou spotřebu pitné vody v rámci hydratace sportovců teplota vnějšího prostředí?",
-     "options": ["Yes", "No"], "correct": "Yes"},
+     "options": ["Ano", "Ne"], "correct": "Ano"},
     {"question": "Má hyperhydratace významný vliv na spotřebu ptiné vody?", 
-     "options": ["Yes", "No"], "correct": "No"},
+     "options": ["Ano", "Ne"], "correct": "Ne"},
     {"question": "Co spadá do kategorie využití vodních zdrojů - vysoká závislost, nízka spotřeba", 
-     "options": ["např. voda pro bazény, vodní plocha pro stadion",
-                 "např. voda pro motorová závodní vozidla", 
-                 "např. voda pro hydrataci sportovců, zavlažování venkovních travnatých sportovišť"],
-                 "correct": "např. voda pro bazény, vodní plocha pro stadion"},
-    {"question": "Kolik % vody může ušetřit využívání retenčních nádrží dle Burszta-Adamiak a Spychalski (2021)?", 
+     "options": ["Např. voda pro bazény, vodní plocha pro stadion",
+                 "Např. voda pro motorová závodní vozidla", 
+                 "Např. voda pro hydrataci sportovců, zavlažování venkovních travnatých sportovišť"],
+                 "correct": "Např. voda pro bazény, vodní plocha pro stadion"},
+    {"question": "Kolik '%' vody může ušetřit využívání retenčních nádrží dle Burszta-Adamiak a Spychalski (2021)?", 
      "options": ["25%", "75%", "90%", "70%"], "correct": "70%"},
     {"question": "Jsou umělé hrací plochy rizikovější z hlediska zranění?", 
      "options":["Ano", "Ne"], "correct":"Ne"},
-    {"question": "Dle Kanaan et al. (2020) může povrch umělých hracích ploch v letních měsících přesáhnout i teplotu:", 
+    {"question": "Dle Kanaan a kol. (2020) může povrch umělých hracích ploch v letních měsících přesáhnout i teplotu:", 
      "options":["90°C", "80°C", "60°C", "70°C"], "correct":"80°C"},
 
     {"question": "Jaké opatření byste navrhli ke snížení spotřeby vody ve sportovních zařízeních?", 
-     "options":["retenční nádrže", "odtoková zařízení", "vsakovací zařízení"], "correct":"retenční nádrže"},
+     "options":["Retenční nádrže", "Odtoková zařízení", "Vsakovací zařízení"], "correct":"Retenční nádrže"},
     
-    {"question": "Kolik % je recyklováno z celkového množství oblečení v USA a Evropě v posledních letech? (Napiš pouze číslo)", 
+    {"question": "Kolik '%' je recyklováno z celkového množství oblečení v USA a Evropě v posledních letech? (Napiš pouze číslo)", 
      "open": True, "correct": "20"}, 
     
     {"question": "Kolik '%' světelného toku Podle Sielachowska a Zajkowski (2020) může (neefektivně) směřovat do horního poloprostoru:", 
@@ -92,6 +92,7 @@ if st.button("Odeslat odpovědi"):
     else:
         st.write("🔍 Zkusil bych to znovu...")
 # python -m streamlit run e:/data/Statistics/Python_scripts/Streamlit_try_001.py
+
 
 
 
