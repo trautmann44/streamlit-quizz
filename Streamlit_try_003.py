@@ -22,8 +22,13 @@ questions = [
      "options":["Ano", "Ne"], "correct":"Ne"},
     {"question": "Dle Kanaan et al. (2020) může povrch umělých hracích ploch v letních měsících přesáhnout i teplotu:", 
      "options":["90°C", "80°C", "60°C", "70°C"], "correct":"80°C"},
+
     {"question": "Jaké opatření byste navrhli ke snížení spotřeby vody ve sportovních zařízeních?", 
-     "open": True, "correct": "retenční nádrže"}, 
+     "options":["retenční nádrže", "odtoková zařízení", "vsakovací zařízení"], "correct":"retenční nádrže"},
+    
+    {"question": "Kolik % je recyklováno z celkového množství oblečení v USA a Evropě v posledních letech? (Napiš pouze číslo)", 
+     "open": True, "correct": "20"}, 
+    
     {"question": "Kolik '%' světelného toku Podle Sielachowska a Zajkowski (2020) může (neefektivně) směřovat do horního poloprostoru:", 
      "options":["60%", "80%", "40%", "50%"], "correct":"50%"}, 
 
@@ -87,6 +92,7 @@ if st.button("Odeslat odpovědi"):
     else:
         st.write("🔍 Zkusil bych to znovu...")
 # python -m streamlit run e:/data/Statistics/Python_scripts/Streamlit_try_001.py
+
 
 
 
