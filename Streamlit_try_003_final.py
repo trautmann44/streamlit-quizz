@@ -182,12 +182,6 @@ if st.button("Odeslat odpovědi"):
         st.write("🔍 Zkusil bych to znovu...")
         
 
-if st.button("Nový kvíz"):
-    del st.session_state.selected_questions
-    st.session_state.submitted = False
-    st.experimental_rerun()
-# python -m streamlit run e:/data/Statistics/Python_scripts/Streamlit_try_001.py
-
 
 
 
