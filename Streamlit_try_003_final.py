@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import random
 
-st.title("Quiz game")
+st.title("Kvíz")
 #st.write("works or not?")
 #st.write(1+1)
 
@@ -181,6 +181,7 @@ if st.button("Odeslat odpovědi"):
     else:
         st.write("🔍 Zkusil bych to znovu...")
         
+
 
 
 
